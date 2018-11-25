@@ -1,0 +1,5 @@
+<aura:component>
+    <aura:attribute name="counter" type="Integer" default="0"/>
+    <aura:method name="increment" action="{!c.increment}"/>
+    <div>Component With Method!</div>
+</aura:component>
